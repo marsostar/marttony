@@ -94,6 +94,15 @@ body{
        100% {  background-image: url("em3.PNG");}
     
 }
+.na{
+    border-style: solid;
+    border-width: 3px;
+     -webkit-animation: pulse2 5s infinite alternate;
+     height:65px;
+     width:335px;
+     padding:20px;
+}
+
 .da{
     position:absolute;
     top:100px;
@@ -148,7 +157,16 @@ body{
     background-size:cover;
     opacity:0.4;
 }
-
+.ikon{
+    position: absolute;
+    top:1500px;
+    left:100px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+    color:black;
+    font-size: 50px;
+    padding:50px;
+    -webkit-animation: pulse3 5s infinite alternate;
+}
 .menu{
     font-family: Montserrat, arial, sans-serif; 
     text-align: center;
@@ -387,6 +405,33 @@ footer{
    font-size: 30px;
   
 }
+.sadu2{
+   opacity:1;
+   background-image: url('z.jpg');    
+   
+     color:black;
+     position:relative;
+   left:100px;
+   top:2400px;
+   height:900px;
+   width:1700px;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+   font-size: 13px;
+    font-weight:lighter;
+   text-align: center;
+   vertical-align: middle;  
+}
+.tzu2{
+    position:relative;
+     opacity:0.9;
+   left:660px;
+   top:40px;
+   height:200px;
+   width:400px;
+  color:white;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+   font-size: 30px; 
+}
 @-moz-document url-prefix() { 
     @-moz-keyframes pulse {
       0% {background-color: #29aa93;}
@@ -503,7 +548,11 @@ form{
   top:0px;
 }
 
-
+.na{
+    border-style: solid;
+    border-width: 3px;
+     -moz-animation: pulse2 5s infinite alternate;
+}
 
 #image {
   position: absolute;
@@ -586,5 +635,15 @@ footer{
     -webkit-transform: rotate(40deg); /* Safari */
     transform: rotate(40deg); /* Standard syntax */
     opacity:0.5;
+}
+.ikon{
+    position: absolute;
+    top:1500px;
+    left:100px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+    color:black;
+    font-size: 50px;
+    padding:50px;
+    -moz-animation: pulse3 5s infinite alternate;
 }
 }

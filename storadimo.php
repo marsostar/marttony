@@ -6,6 +6,7 @@
           Poiret+One|Prompt|Quicksand|Roboto+Mono|Secular+One|Ubuntu+Condensed|Arimo|Dawning+of+a+New+Day" rel="stylesheet">
     <link href="stil.css" rel="stylesheet">
 <style>
+ 
 </style>
 <script>
   function show(id) {
@@ -22,18 +23,13 @@
 
   
 
-    <div class="menu" onMouseOver="show('stranice')" onMouseOut="hide('stranice')" >
+    <div class="menu"  >
         <img  id="img" src="logoil.gif" alt="Mountain View" style="width:150px;height:110px;">
-       <p id="text">
-    MENU
-  </p>
-    <img id="image" src="linijail.gif" alt="Mountain View" style="width:1000px;height:5px;">
-    <div class="stranice" id="stranice">
-        Home onama projekti štoradimo kontakt zaposlite nas
-           <a href="kontakt.php">KONTAKT </a> 
-        </div>
-
+        <br>
+        <a href="kontakt.php">Kontakt </a> 
+        <a href="storadimo.php">Sto radimo </a>  <a href="projekti.php">Projekti </a> 
     </div>
+
     
 
  <div class ="da"><div class="da1">
@@ -78,8 +74,34 @@
        jquery<br>
        php<br>
           </div></div>
+    
+    <div class = "ikon">
+      <div class="na">  TEHNOLOGIJE <br> </div>
+          <img src="invision.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+          <img src="microolap.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+           <img src=" java.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+           <img src="git.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+           <img src="illustrator.jpg" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+           <img src="gimp.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+           <img src="postgresql_1.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+           <img src="sqlserver.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+           <img src="MySQL.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+           <img src="CPlusPlus.jpg" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+           <img src="c.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+           <img src="css.jpg" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+           <img src="php.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+            <img src="html.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+            <img src="net.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+            <img src="vs.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+            <img src="js.png" alt="Mountain View" style="width:155px;height:150px;  padding: 20px;">
+    </div>
       
-      
+   <div class="sadu2">
+       <div class="tzu2"> ZAPOSLITE NAS <br>
+           <a href="kontakt.php"> <img src="kontaktil.png" alt="Mountain View" style="width:160px;height:160px; padding: 0px; ">
+           </a>
+       </div>
+        </div>   
     
     <div class="potpis">
         MartTony

@@ -18,23 +18,16 @@
 <body>
 
 
-
-    <div class="prvi">
-        
-    </div>
-
-    <div class="menu" onMouseOver="show('stranice')" onMouseOut="hide('stranice')" >
+    <div class="menu"  >
         <img  id="img" src="logoil.gif" alt="Mountain View" style="width:150px;height:110px;">
-       <p id="text">
-    MENU
-  </p>
-    <img id="image" src="linijail.gif" alt="Mountain View" style="width:1000px;height:5px;">
-    <div class="stranice" id="stranice">
-        Home onama projekti štoradimo kontakt zaposlite nas
-           <a href="kontakt.php">KONTAKT </a> 
-        </div>
-
+        <br>
+        <a href="kontakt.php">Kontakt </a> 
+        <a href="storadimo.php">Sto radimo </a> 
+         <a href="projekti.php">Projekti </a> 
     </div>
+
+
+
   <div class="potpis">
         MartTony
         </div>

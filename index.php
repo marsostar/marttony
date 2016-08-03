@@ -406,16 +406,13 @@ img{
         MartTony
     </div>
 
-    <div class="menu" onMouseOver="show('stranice')" onMouseOut="hide('stranice')" >
-        Meni<br>
-    <img src="linijailbijela.gif" alt="Mountain View" class='linija' style="width:1000px;height:5px;">
-    <div class="stranice" id="stranice">
-        Home onama projekti štoradimo  
+   
+    <div class="menu" id="stranice">
         <a href="kontakt.php">Kontakt </a> 
-        <a href="storadimo.php">Sto radimo </a> 
+        <a href="storadimo.php">Sto radimo </a>  <a href="projekti.php">Projekti </a> 
         </div>
 
-    </div>
+   
     <div class ="ikone">
       <div class="prva">  <img src="logobaza.png" alt="Mountain View" style="width:105px;height:100px; padding: 10px; "> </div>
         <div class="drugi">  <img src="logodesktopapplikacije.png" alt="Mountain View" style="width:105px;height:100px; padding: 10px;"></div>
