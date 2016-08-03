@@ -100,16 +100,16 @@ body{
     left:100px;
     height:600px;
     width:800px;
-    background-color: black;
-    background-image: url("a1.jpg");
+    background-color:blue;
+
     background-size:cover;
     color:white;
     opacity:0.4;
 }
 .da1 , .bp1,.ws1 , .wa1{
     position:absolute;
-        top:30px;
-        left:270px;
+        top:3px;
+        left:220px;
         
 }
 .bp{
@@ -118,8 +118,8 @@ body{
     left:950px;
     height:600px;
     width:800px;  
-    background-color: blue;
-    background-image: url("a2.jpg");
+    background-color: blueviolet;
+ 
     background-size:cover;
     color:white;
     opacity:0.4;
@@ -130,8 +130,8 @@ body{
     left:100px;
     height:600px;
     width:800px;  
-     background-color: blueviolet;
-     background-image: url("a3.jpg");
+     background-color: forestgreen;
+ 
      background-size:cover;
      color:white;
      opacity:0.4;
@@ -142,8 +142,8 @@ body{
     left:950px;
     height:600px;
     width:800px; 
-    background-color: violet;
-    background-image: url("a4.jpg");
+    background-color:orange;
+   
     color:white;
     background-size:cover;
     opacity:0.4;
