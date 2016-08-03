@@ -1,0 +1,344 @@
+body{
+      
+       font-family: 'Poiret One', sans-serif ;
+    font-size: 30px;
+}
+@-webkit-keyframes pulse {
+      0% {background-color: #29aa93;}
+       10% {background-color: #3085b4;}
+       20% {background-color: #2966da;}
+       30% {background-color: #7047c5;}
+       40% {background-color: #833fbf;}
+       50% {background-color: #b42daf;}
+       60% {background-color: #e42691;}
+       70% {background-color: #f35559;}
+       80% {background-color: #ea7242;}
+       90% {background-color: #eb852f;}
+       100% {background-color: #abaf35;}
+    
+}
+@-webkit-keyframes pulse2 {
+      0% {border-color: #29aa93; color: #29aa93;}
+       10% {border-color: #3085b4; color: #3085b4;}
+       20% {border-color: #2966da; color: #2966da; }
+       30% {border-color: #7047c5; color: #7047c5;}
+       40% {border-color: #833fbf; color: #833fbf;}
+       50% {border-color: #b42daf; color: #b42daf;}
+       60% {border-color: #e42691; color: #e42691;}
+       70% {border-color: #f35559;color: #f35559;}
+       80% {border-color: #ea7242;color: #ea7242;}
+       90% {border-color: #eb852f;color: #eb852f;}
+       100% {border-color: #abaf35;color: #abaf35;}
+    
+}
+@-webkit-keyframes pulse3 {
+      0% { color: #29aa93;}
+       10% {color: #3085b4;}
+       20% { color: #2966da; }
+       30% { color: #7047c5;}
+       40% {color: #833fbf;}
+       50% { color: #b42daf;}
+       60% { color: #e42691;}
+       70% {color: #f35559;}
+       80% {color: #ea7242;}
+       90% {color: #eb852f;}
+       100% {color: #abaf35;}
+    
+}
+.menu{
+    font-family: Montserrat, arial, sans-serif; 
+    text-align: center;
+    opacity:0.7;
+    margin:0px;
+    font-size:22px;
+}
+a:visited {
+    color: black;
+     text-decoration: none;
+   
+}
+
+a:hover {
+    color:black;
+     text-decoration: none;
+}
+
+a:active {
+    color: black;
+     text-decoration: none;
+}
+form{
+    position:absolute;
+    top:100px;
+    left:200px;
+}
+.stranice{
+     font-family: 'Poiret One', sans-serif ;
+   position:absolute;
+   visibility: hidden;
+   left:170px;
+   top:57px;
+     font-size:15px;
+     font-weight:100;
+}
+#img {
+  position: absolute;
+  left: 0px;
+  top:0px;
+}
+
+
+
+#image {
+  position: absolute;
+  left: 140px;
+  top:39px;
+   
+}
+#text {
+  
+  position: absolute;
+  left: 170px;
+  top: 1px;
+}
+footer{
+     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+    opacity:0.7;
+   background-color: #45CEEF;    
+     -webkit-animation: pulse 5s infinite alternate;
+     color:white;
+     position:relative;
+   left:0px;
+   top:900px;
+   height:170px;
+   width:1890.5px;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+   font-size: 15px;
+    font-weight:lighter;
+   text-align: center;
+}
+.submit {
+    background-color: white;
+     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+        border-style: solid;
+   border-color: #45CEEF;    
+     -webkit-animation: pulse2 5s infinite alternate;
+    color: dodgerblue;
+  
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width:300px;
+    height:60px;
+    margin:10px;
+
+}
+
+.submit21 {
+   opacity:0.9;
+    background-color: #45CEEF;    
+     -webkit-animation: pulse 5s infinite alternate;font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+     border-style: solid;
+   border-color: white;
+    color: white;
+    height:300px;
+    text-align: center;
+    display: inline-block;
+    margin:10px;
+    font-size: 18px;
+   width:300px;
+}
+.fotmart{
+ font-family: 'Dawning of a New Day', cursive;
+     font-size: 40px;
+    
+}
+
+.potpis{
+     position:fixed;
+    top:300px;
+    left:500px;
+   
+    width: 1200px;
+    height:600px;
+    font-family: 'Dawning of a New Day', cursive;
+     font-size: 250px;
+   -webkit-animation: pulse3 5s infinite alternate;
+      -ms-transform: rotate(40deg); /* IE 9 */
+    -webkit-transform: rotate(40deg); /* Safari */
+    transform: rotate(40deg); /* Standard syntax */
+    opacity:0.3;
+}
+
+
+@-moz-document url-prefix() { 
+    @-moz-keyframes pulse {
+      0% {background-color: #29aa93;}
+       10% {background-color: #3085b4;}
+       20% {background-color: #2966da;}
+       30% {background-color: #7047c5;}
+       40% {background-color: #833fbf;}
+       50% {background-color: #b42daf;}
+       60% {background-color: #e42691;}
+       70% {background-color: #f35559;}
+       80% {background-color: #ea7242;}
+       90% {background-color: #eb852f;}
+       100% {background-color: #abaf35;}
+    
+}
+@-moz-keyframes pulse2 {
+      0% {border-color: #29aa93; color: #29aa93;}
+       10% {border-color: #3085b4; color: #3085b4;}
+       20% {border-color: #2966da; color: #2966da; }
+       30% {border-color: #7047c5; color: #7047c5;}
+       40% {border-color: #833fbf; color: #833fbf;}
+       50% {border-color: #b42daf; color: #b42daf;}
+       60% {border-color: #e42691; color: #e42691;}
+       70% {border-color: #f35559;color: #f35559;}
+       80% {border-color: #ea7242;color: #ea7242;}
+       90% {border-color: #eb852f;color: #eb852f;}
+       100% {border-color: #abaf35;color: #abaf35;}
+    
+}
+@-moz-keyframes pulse3 {
+      0% { color: #29aa93;}
+       10% {color: #3085b4;}
+       20% { color: #2966da; }
+       30% { color: #7047c5;}
+       40% {color: #833fbf;}
+       50% { color: #b42daf;}
+       60% { color: #e42691;}
+       70% {color: #f35559;}
+       80% {color: #ea7242;}
+       90% {color: #eb852f;}
+       100% {color: #abaf35;}
+    
+}
+ .menu{
+    font-family: Montserrat, arial, sans-serif; 
+    text-align: center;
+    opacity:0.7;
+    margin:0px;
+    font-size:22px;
+}
+a:visited {
+    color: black;
+     text-decoration: none;
+   
+}
+
+a:hover {
+    color:black;
+     text-decoration: none;
+}
+
+a:active {
+    color: black;
+     text-decoration: none;
+}
+form{
+    position:absolute;
+    top:100px;
+    left:200px;
+}
+.stranice{
+     font-family: 'Poiret One', sans-serif ;
+   position:absolute;
+   visibility: hidden;
+   left:170px;
+   top:57px;
+     font-size:15px;
+     font-weight:100;
+}
+#img {
+  position: absolute;
+  left: 0px;
+  top:0px;
+}
+
+
+
+#image {
+  position: absolute;
+  left: 140px;
+  top:39px;
+   
+}
+#text {
+  
+  position: absolute;
+  left: 170px;
+  top: 1px;
+}
+footer{
+     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+    opacity:0.7;
+   background-color: #45CEEF;    
+     -moz-animation: pulse 5s infinite alternate;
+     color:white;
+     position:relative;
+   left:0px;
+   top:700px;
+   height:170px;
+   width:1500px;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+   font-size: 13px;
+    font-weight:lighter;
+   text-align: center;
+}
+.submit {
+    background-color: white;
+     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+        border-style: solid;
+   border-color: #45CEEF;    
+     -moz-animation: pulse2 5s infinite alternate;
+    color: dodgerblue;
+  
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width:200px;
+    height:40px;
+    margin:10px;
+
+}
+
+.submit21 {
+   opacity:0.9;
+    background-color: #45CEEF;    
+     -moz-animation: pulse 5s infinite alternate;font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+     border-style: solid;
+   border-color: white;
+    color: white;
+    height:200px;
+    text-align: center;
+    display: inline-block;
+    margin:10px;
+    font-size: 12px;
+   width:200px;
+}
+.fotmart{
+ font-family: 'Dawning of a New Day', cursive;
+     font-size: 40px;
+    
+}
+
+.potpis{
+     position:fixed;
+    top:300px;
+    left:300px;
+   
+    width: 1200px;
+    height:600px;
+    font-family: 'Dawning of a New Day', cursive;
+     font-size: 200px;
+   -webkit-animation: pulse3 5s infinite alternate;
+    -moz-animation: pulse3 5s infinite alternate;
+      -ms-transform: rotate(40deg); /* IE 9 */
+    -webkit-transform: rotate(40deg); /* Safari */
+    transform: rotate(40deg); /* Standard syntax */
+    opacity:0.3;
+}
+}
