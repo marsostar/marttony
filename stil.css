@@ -45,6 +45,110 @@ body{
        100% {color: #abaf35;}
     
 }
+@-webkit-keyframes pulse42 {
+      0% {  background-image: url("q1.PNG");}
+       50%{  background-image: url("q2.PNG");}
+       100% {  background-image: url("q3.PNG");}
+    
+}
+@-moz-keyframes pulse42 {
+      0% {  background-image: url("q1.PNG");}
+       50%{  background-image: url("q2.PNG");}
+       100% {  background-image: url("q3.PNG");}
+    
+}
+
+@-webkit-keyframes pulse43 {
+      0% {  background-image: url("ljek1.PNG");}
+       50%{  background-image: url("ljek2.PNG");}
+       100% {  background-image: url("ljek3.PNG");}
+    
+}
+@-moz-keyframes pulse43 {
+      0% {  background-image: url("ljek1.PNG");}
+       50%{  background-image: url("ljek2.PNG");}
+       100% {  background-image: url("ljek3.PNG");}
+    
+}
+@-webkit-keyframes pulse44 {
+      0% {  background-image: url("sm1.PNG");}
+       50%{  background-image: url("sm2.PNG");}
+       100% {  background-image: url("sm1.PNG");}
+    
+}
+@-moz-keyframes pulse44 {
+      0% {  background-image: url("sm1.PNG");}
+       50%{  background-image: url("sm2.PNG");}
+       100% {  background-image: url("sm1.PNG");}
+    
+}
+@-webkit-keyframes pulse45 {
+      0% {  background-image: url("em1.PNG");}
+       50%{  background-image: url("em2.PNG");}
+       100% {  background-image: url("em3.PNG");}
+    
+}
+@-moz-keyframes pulse45 {
+      0% {  background-image: url("em1.PNG");}
+       50%{  background-image: url("em2.PNG");}
+       100% {  background-image: url("em3.PNG");}
+    
+}
+.da{
+    position:absolute;
+    top:100px;
+    left:100px;
+    height:600px;
+    width:800px;
+    background-color: black;
+    background-image: url("a1.jpg");
+    background-size:cover;
+    color:white;
+    opacity:0.4;
+}
+.da1 , .bp1,.ws1 , .wa1{
+    position:absolute;
+        top:30px;
+        left:270px;
+        
+}
+.bp{
+  position:absolute;
+    top:100px;
+    left:950px;
+    height:600px;
+    width:800px;  
+    background-color: blue;
+    background-image: url("a2.jpg");
+    background-size:cover;
+    color:white;
+    opacity:0.4;
+}
+.ws{
+ position:absolute;
+    top:750px;
+    left:100px;
+    height:600px;
+    width:800px;  
+     background-color: blueviolet;
+     background-image: url("a3.jpg");
+     background-size:cover;
+     color:white;
+     opacity:0.4;
+}
+.wa{
+    position: absolute;
+      top:750px;
+    left:950px;
+    height:600px;
+    width:800px; 
+    background-color: violet;
+    background-image: url("a4.jpg");
+    color:white;
+    background-size:cover;
+    opacity:0.4;
+}
+
 .menu{
     font-family: Montserrat, arial, sans-serif; 
     text-align: center;
@@ -109,7 +213,7 @@ footer{
      color:white;
      position:relative;
    left:0px;
-   top:900px;
+   top:2750px;
    height:170px;
    width:1890.5px;
    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
@@ -168,10 +272,121 @@ footer{
       -ms-transform: rotate(40deg); /* IE 9 */
     -webkit-transform: rotate(40deg); /* Safari */
     transform: rotate(40deg); /* Standard syntax */
-    opacity:0.3;
+    opacity:0.5;
 }
-
-
+.sadrzaj{
+  position:absolute;
+    top:100px;
+    left:200px; 
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+     font-size: 20px;
+}
+.sad1{
+  
+    opacity:1;
+   background-image: url('z.jpg');    
+   
+     color:black;
+     position:relative;
+   left:100px;
+   top:100px;
+   height:900px;
+   width:1700px;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+   font-size: 13px;
+    font-weight:lighter;
+   text-align: center;
+   vertical-align: middle;
+}
+.sad2{
+      font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+   font-size: 20px;
+  color:black;
+     position:absolute;
+   left:108px;
+   top:1080px;
+   height:50px;
+   width:850px;  
+ padding-top: 450px;
+   border-color: black;
+   border-width: 1px;
+     border-style: none;
+    -webkit-animation: pulse42 5s infinite alternate;
+    -moz-animation: pulse42 5s infinite alternate;
+      background-size: 850px 400px;
+      background-repeat: no-repeat;
+     
+}
+.sad3{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+   font-size: 20px;
+    border-color: black;
+    color:black;
+     position:absolute;
+   left:958px;
+    top:1080px;
+   height:50px;
+   width:850px;  
+ padding-top: 450px;
+   border-width: 1px;
+     border-style:none;
+     border-left-width: 0px;
+     -webkit-animation: pulse43 5s infinite alternate;
+    -moz-animation: pulse43 5s infinite alternate;
+      background-size: 850px 430px;
+      background-repeat: no-repeat;
+     
+}
+.sad4{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+   font-size: 20px;
+    border-color: black;
+    color:black;
+     position:absolute;
+   left:500px;
+   top:1780px;
+   height:1px;
+   padding-top:470px;
+   width:800px;
+   border-width: 1px;
+     border-style: solid;
+     border-top-width: 0px;
+       -webkit-animation: pulse44 5s infinite alternate;
+    -moz-animation: pulse44 5s infinite alternate;
+      background-size: 800px 500px;
+      background-repeat: no-repeat;
+}
+.sad5{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+   font-size: 20px;
+    border-color: black;
+    color:black;
+     position:absolute;
+   left:650px;
+   top:2450px;
+   height:50px;
+   padding-top:900px;
+   width:500px;
+   border-width: 1px;
+     border-style: none;
+     border-top-width: 0px;
+        -webkit-animation: pulse45 5s infinite alternate;
+    -moz-animation: pulse45 5s infinite alternate;
+      background-size: 500px 900px;
+      background-repeat: no-repeat;
+}
+.tz{
+     position:relative;
+     opacity:0.9;
+   left:660px;
+   top:40px;
+   height:200px;
+   width:400px;
+  color:white;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+   font-size: 30px;
+  
+}
 @-moz-document url-prefix() { 
     @-moz-keyframes pulse {
       0% {background-color: #29aa93;}
@@ -214,6 +429,37 @@ footer{
        90% {color: #eb852f;}
        100% {color: #abaf35;}
     
+}
+.sad1{
+  
+    opacity:0.9;
+   background-color: #45CEEF;    
+     -moz-animation: pulse 5s infinite alternate;
+     color:white;
+     position:relative;
+   left:100px;
+   top:100px;
+   height:800px;
+   width:1700px;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+   font-size: 13px;
+    font-weight:lighter;
+   text-align: center;
+   vertical-align: middle;
+}
+.tz{
+     position:relative;
+     opacity:0.9;
+   left:400px;
+   top:600px;
+   height:200px;
+   width:400px;
+  color:white;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+   font-size: 30px;
+    
+     -webkit-animation: pulse 5s infinite alternate;
+     -mozkit-animation: pulse 5s infinite alternate;
 }
  .menu{
     font-family: Montserrat, arial, sans-serif; 
@@ -339,6 +585,6 @@ footer{
       -ms-transform: rotate(40deg); /* IE 9 */
     -webkit-transform: rotate(40deg); /* Safari */
     transform: rotate(40deg); /* Standard syntax */
-    opacity:0.3;
+    opacity:0.5;
 }
 }

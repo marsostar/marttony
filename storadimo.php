@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,9 +20,7 @@
 
 
 
-    <div class="prvi">
-        
-    </div>
+  
 
     <div class="menu" onMouseOver="show('stranice')" onMouseOut="hide('stranice')" >
         <img  id="img" src="logoil.gif" alt="Mountain View" style="width:150px;height:110px;">
@@ -36,17 +35,55 @@
 
     </div>
     
-Izrada web aplikacija<br>
-Radimo  web aplikacije u tehnologijama HTML , CSS , JavaScript , PHP<br>
-Izrada i održavanje web stranica<br>
-Radimo i održavamo web stranice u tehnologijama HTML , CSS , JavaScript , PHP<br>
-Razvijanje desktop aplikacija<br>
-Izrada desktop aplikacija u tehnologijama  C, C#, C++, Java , tj. rad s  .NET(Visual Studio) , Eclipse<br>
-Izrada i održavanje baza podataka <br>
-Rad u tehnologijama : MySQL , SQL server , Postgresql , MicroOLAP, MS Access) <br>
 
-Ostale tehnologije i alati s kojima radimo : Git , GIMP , InVision , Illustrator<br>
-
+ <div class ="da"><div class="da1">
+     <img src="logodesktopapplikacije.png" alt="Mountain View" style="width:105px;height:100px;  padding-top: 170px;">
+     DESKTOP APLIKACIJE  <br>
+     Izrada /Održavanje<br>
+     c#<br>
+     c++<br>
+     Java <br>
+     Visual Studio<br>
+     .NET <br>
+     </div></div>
+ 
+ 
+  <div class ="bp"><div class ="bp1">
+     <img src="logobaza.png" alt="Mountain View" style="width:105px;height:100px;  padding-top: 170px; "> 
+        BAZE PODATAKA<br>  Izrada /Održavanje<br>
+        postgresql<br>
+        mysql<br>
+        sql server<br>
+        microolap <br>
+      </div></div>
+ 
+ 
+  <div class ="wa"> <div class ="wa1">
+      <img src="zaoposlitenas.png" alt="Mountain View" style="width:105px;height:100px;   padding-top: 170px;">
+       WEB APLIKACIJE<br>  Izrada /Održavanje<br>
+       html<br>
+       css<br>
+       javascript<br>
+       jquery<br>
+       php<br>
+      </div></div>
+  
+  
+      <div class ="ws"><div class ="ws1">
+          <img src="logowebstranice.png" alt="Mountain View" style="width:105px;height:100px;  padding-top: 170px;">
+           WEB STRANICE <br> Izrada /Održavanje<br>
+           html<br>
+       css<br>
+       javascript<br>
+       jquery<br>
+       php<br>
+          </div></div>
+      
+      
+    
+    <div class="potpis">
+        MartTony
+        </div>
    
 <footer>
    <img src='logoilbijeli.gif' alt='footer' style='width:80px;height:60px;'>  Copyright © 2016 Antonio Ćosić & Marta Šostarec<br>

@@ -412,6 +412,7 @@ img{
     <div class="stranice" id="stranice">
         Home onama projekti štoradimo  
         <a href="kontakt.php">Kontakt </a> 
+        <a href="storadimo.php">Sto radimo </a> 
         </div>
 
     </div>
@@ -421,10 +422,12 @@ img{
          <div class="treci">  <img src="logowebstranice.png" alt="Mountain View" style="width:105px;height:100px; padding: 10px;"></div>
          <div class="cetvrti"> <img src="zaoposlitenas.png" alt="Mountain View" style="width:105px;height:100px;  padding: 10px;"> </div>
         </div>
+  
       <div class="text1">  Izrada baze podataka </div>
     <div class="text2">  Izrada desktop app </div>  
   <div class="text3">  Izrada web stranica </div>
 <div class="text4">  Izrada web aplikacija </div>
+
 
 
 
