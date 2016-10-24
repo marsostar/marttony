@@ -8,12 +8,11 @@
 
 a:hover {
     color:white;
-     text-decoration: none;
+    text-decoration: none;
 }
 a:visited {
     color: white;
-     text-decoration: none;
-   
+    text-decoration: none;
 }
 a:active {
     color: white;
@@ -21,12 +20,12 @@ a:active {
 }
 a {
     color: white;
-     text-decoration: none;
+    text-decoration: none;
    
 }
 
 @-webkit-keyframes pulse {
-      0% {opacity:0.05;}
+       0% {opacity:0.05;}
        10% {opacity:0.1;}
        20% { opacity:0.15;}
        30% { opacity:0.2;}
@@ -41,12 +40,12 @@ a {
 }
 @-webkit-keyframes pulse1 {
       0% {position: fixed;
-    top:300px;
-    left:420px;}
+            top:300px;
+            left:420px;}
        5% {position: fixed;
-    top:300px;
-    left:420px;}
-    35% { position: absolute;
+            top:300px;
+            left:420px;}
+        35% { position: absolute;
     top:500px;
     left:620px;}
      65% { position: absolute;
@@ -122,34 +121,34 @@ a {
     
 }
 @-webkit-keyframes t1 {
-      15% { opacity: 1; }
-      35% { opacity: 0; }
-       65% { opacity: 0; }
-       100% { opacity: 0; }
+        15% { opacity: 1; }
+        35% { opacity: 0; }
+        65% { opacity: 0; }
+        100% { opacity: 0; }
 }
 @-webkit-keyframes t2 {
-     0% { opacity: 0; }
-      35% { opacity: 0; }
-       65% { opacity: 0; }
-       100% { opacity: 1; }
+        0% { opacity: 0; }
+        35% { opacity: 0; }
+        65% { opacity: 0; }
+        100% { opacity: 1; }
 }
 @-webkit-keyframes t3 {
-    0% { opacity: 0; }
-      35% { opacity: 0; }
-       65% { opacity: 1; }
-       100% { opacity: 0; }
+        0% { opacity: 0; }
+        35% { opacity: 0; }
+        65% { opacity: 1; }
+        100% { opacity: 0; }
 }
 @-webkit-keyframes t4 {
   
-   0% { opacity: 0; }
-      35% { opacity: 1; }
-       65% { opacity: 0; }
-       100% { opacity: 0; }     
+        0% { opacity: 0; }
+        35% { opacity: 1; }
+        65% { opacity: 0; }
+        100% { opacity: 0; }     
       
 }
 
 @-moz-keyframes pulse {
-      0% {opacity:0.05;}
+       0% {opacity:0.05;}
        10% {opacity:0.1;}
        20% { opacity:0.15;}
        30% { opacity:0.2;}
@@ -164,7 +163,7 @@ a {
 }
 @-moz-keyframes pulse1 {
       0% {position: fixed;
-    top:250px;
+            top:250px;
     left:420px;}
        5% {position: fixed;
     top:250px;
@@ -176,9 +175,13 @@ a {
     top:650px;
     left:420px;}
     
-      100%{ position: absolute;
+      82.5%{ position: absolute;
     top:450px;
-    left:220px;             }
+    left:220px;}
+      
+      100% {position: fixed;
+            top:250px;
+    left:420px;}
        
     
 }
@@ -227,8 +230,8 @@ a {
 }
 @-moz-keyframes pulse4 {
       0% { position: absolute;
-    top:450px;
-    left:220px;}
+            top:450px;
+            left:220px;}
        5% { position: absolute;
     top:450px;
     left:220px;}
@@ -272,9 +275,9 @@ a {
 }
 
 body {
-     background-image:url('cetvrta.jpg');   
+    background-image:url('cetvrta.jpg');   
    
-     color:grey;
+    color:grey;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
     
     font-size: 20px;
@@ -284,14 +287,13 @@ body {
 
 .prvi{
     animation-delay: 2s;
-    
- font-family: 'Dawning of a New Day', cursive;
-     font-size: 110px;
-     position: fixed;
-     top:0px;
-     left:0px;
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 110px;
+    position: fixed;
+    top:0px;
+    left:0px;
       -webkit-animation: pulse 2s ;
-       -moz-animation: pulse 2s ;
+      -moz-animation: pulse 2s ;
 }
 .menu{
       -webkit-animation: pulse 2s ;
@@ -327,7 +329,9 @@ img{
     top:300px;
     left:420px;
    -webkit-animation: pulse1 10s infinite; 
-   -moz-animation: pulse1 10s infinite; 
+   -moz-animation: pulse1 10s infinite;
+   -webkit-transition: top 1s, left 1s; /* For Safari 3.1 to 6.0 */
+    transition: top 1s, left 1s;
    
 }
 .drugi{
@@ -336,6 +340,8 @@ img{
     position: fixed;
     top:300px;
     left:420px;
+    -webkit-transition: top 1s, left 1s; /* For Safari 3.1 to 6.0 */
+    transition: top 1s, left 1s;
 }
 .treci{
     -webkit-animation: pulse3 10s infinite ; 
@@ -343,6 +349,8 @@ img{
     position: fixed;
     top:300px;
     left:420px;
+    -webkit-transition: top 1s, left 1s; /* For Safari 3.1 to 6.0 */
+    transition: top 1s, left 1s;
 }
 .cetvrti{
    -webkit-animation: pulse4 10s infinite ; 
@@ -350,6 +358,8 @@ img{
    position: fixed;
     top:300px;
     left:420px;
+    -webkit-transition: top 1s, left 1s; /* For Safari 3.1 to 6.0 */
+    transition: top 1s, left 1s;
 }
 
 .text1{
